@@ -18,7 +18,7 @@ body {
     justify-content: center;
     background: linear-gradient(to top left, rgba(0, 0, 255, 0.511), rgba(255, 0, 0, 0.252));
 }
-.show-modal{
+.show{
     font-size: 2rem;
     font-weight: 600;
     padding: 1.75rem 3.5rem;
