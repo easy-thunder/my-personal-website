@@ -7,7 +7,23 @@ html {
 
     box-sizing: border-box;
 }
+.myImages.picture{
+    height: 40%;
+}
+.myImages{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin:
+    width: 30%;
+    height: 30%
 
+}
+.centerText{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 body {
     font-family: sans-serif;
     color: #333;
@@ -32,7 +48,37 @@ body {
 
 .hidden {display: none;}
 
-.close-modal{
+.close-modal0{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.close-modal1{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.close-modal2{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.close-modal3{
     position: absolute;
     top: 1.2rem;
     right: 2rem;
@@ -43,7 +89,7 @@ body {
     background: none;
 }
 .modal{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -52,6 +98,7 @@ body {
     background-color: white;
     padding: 6rem;
     border-radius: 5px;
+
     box-shadow: 0 3rem 5rem rgba(0,0,0,0.3);
     z-index: 10;
 }
