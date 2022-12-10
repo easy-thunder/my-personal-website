@@ -1,0 +1,1 @@
+This project has links to my code along's, demonstrations of some of the things I've done and a background about me.
